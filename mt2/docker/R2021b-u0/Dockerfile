@@ -17,7 +17,7 @@
 # @creation 2020-Mar-24
 #
 
-FROM debian:stretch-slim
+FROM openjdk:8-jre
 MAINTAINER Riccardo De Martis <riccardo@demartis.it>
 ENV DEBIAN_FRONTEND noninteractive
 
